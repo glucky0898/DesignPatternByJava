@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="023de487-b1f3-4ab3-a6e2-37a49120dfd3" name="Default Changelist" comment="" />
+    <list default="true" id="023de487-b1f3-4ab3-a6e2-37a49120dfd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/FakeQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/RedHeadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/duck/optimal_design/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/bad_design/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/bad_design/DecoyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/bad_design/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/bad_design/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/bad_design/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/bad_design/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/bad_design/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/bad_design/RedHeadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/bad_design/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/bad_design/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/strategy.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,26 +40,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
-          <entry key="md" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="20" />
+          <entry key="md" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="Markdown" value="4" />
+          <entry key="Git file" value="1" />
+          <entry key="JAVA" value="20" />
+          <entry key="Markdown" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="290" />
-          <entry key="md" value="1032" />
+          <entry key="java" value="553" />
+          <entry key="md" value="1577" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="290" />
-          <entry key="Markdown" value="1032" />
+          <entry key="JAVA" value="553" />
+          <entry key="Markdown" value="1577" />
         </counts>
       </usages-collector>
     </session>
@@ -46,21 +69,60 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/MuteQuack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strategy/strategy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="174">
+                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/adapter/strategy.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="551">
-                <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+              <first_editor relative-caret-position="388">
+                <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,84 +130,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designpatterns.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FakeQuack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/Duck.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/RedHeadDuck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/MallardDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyRocketPowered.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="58">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/RedHeadDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/RubberDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/Quack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="23" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/DecoyDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="58">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -155,9 +175,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,6 +193,22 @@
         <option value="$PROJECT_DIR$/src/adapter/duck/bad_design/RedHeadDuck.java" />
         <option value="$PROJECT_DIR$/src/designpatterns.md" />
         <option value="$PROJECT_DIR$/src/adapter/strategy.md" />
+        <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/bad_design/Duck.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/QuackBehavior.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyNoWay.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyWithWings.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/FakeQuack.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/DecoyDuck.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/MuteQuack.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/Duck.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/Quack.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/RedHeadDuck.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyRocketPowered.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/optimal_design/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/strategy/strategy.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -184,6 +224,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -203,26 +244,6 @@
               <item name="DesignPatternByJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatternByJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternByJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternByJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternByJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternByJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="duck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternByJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternByJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatternByJava" type="b2602c69:ProjectViewProjectNode" />
@@ -253,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620987042915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621091103198" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -267,7 +288,11 @@
       <recent name="F:\github项目\DesignPatternByJava\src\strategy\sale" />
       <recent name="F:\github项目\DesignPatternByJava\src\adapter\sale" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategy.duck.optimal_design" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\github项目\DesignPatternByJava" />
       <recent name="F:\github项目\DesignPatternByJava\src\strategy" />
       <recent name="F:\github项目\DesignPatternByJava\src" />
     </key>
@@ -294,12 +319,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620979795363</updated>
-      <workItem from="1620979799807" duration="7211000" />
+      <workItem from="1620979799807" duration="15199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7211000" />
+    <option name="totallyTimeSpent" value="15199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -316,7 +341,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2271715" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.21158129" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -350,18 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/DecoyDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/RubberDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/bad_design/RubberDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="23" />
@@ -374,7 +388,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/MallardDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/adapter/strategy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/bad_design/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/bad_design/DecoyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/bad_design/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
@@ -385,55 +431,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/Duck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyNoWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="116">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/duck/bad_design/RedHeadDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/DecoyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/bad_design/RedHeadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/Quack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/MuteQuack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FakeQuack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/FlyRocketPowered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/RedHeadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/optimal_design/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/strategy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpatterns.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <first_editor relative-caret-position="174">
+            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/strategy.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <first_editor relative-caret-position="388">
+            <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,4 +1,4 @@
-package adapter.duck.bad_design;
+package strategy.duck.bad_design;
 
 public class MallardDuck extends Duck {
     public void display(){

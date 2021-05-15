@@ -1,4 +1,4 @@
-package adapter.duck.bad_design;
+package strategy.duck.bad_design;
 
 public class RedHeadDuck extends Duck {
     public void display(){

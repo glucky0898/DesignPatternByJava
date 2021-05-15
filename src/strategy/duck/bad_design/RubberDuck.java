@@ -1,4 +1,4 @@
-package adapter.duck.bad_design;
+package strategy.duck.bad_design;
 public class RubberDuck extends Duck{
     //修改父类的实现方法不同，进行修改
     public void quack(){
