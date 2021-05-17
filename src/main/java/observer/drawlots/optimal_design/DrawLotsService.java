@@ -2,21 +2,27 @@ package observer.drawlots.optimal_design;
 
 import observer.drawlots.DrawLotsResult;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 public abstract class DrawLotsService {
     private EventManager eventManager;
     public DrawLotsService(){
         eventManager = new EventManager();
-        eventManager.registerEvent(EventManager.EventType.MQ,new MQEventListener());
-        eventManager.registerEvent(EventManager.EventType.Message,new MQEventListener());
     }
     /**
      * 将主流程和辅助流程分开
     * */
     public DrawLotsResult draw(String uId){
         DrawLotsResult res = doDraw(uId);
-        eventManager.notify(EventManager.EventType.MQ,res);
-        eventManager.notify(EventManager.EventType.Message,res);
+        Map<Enum<EventManager.EventType>, List<EventListener>> map = eventManager.getListeners();
+        eventManager.notify(res,map.keySet().stream().toArray());
         return res;
     }
     protected abstract DrawLotsResult doDraw(String uId);
+
+    public EventManager getEventManager() {
+        return eventManager;
+    }
 }
